@@ -113,8 +113,8 @@ function updateScreen(){
     document.querySelector('#score-0').textContent=players[0].totalScore;
     document.querySelector('#current-1').textContent=players[1].currentScore;
     document.querySelector('#score-1').textContent=players[1].totalScore;
-    diceDOM.src='dice-'+dice+'.png';
-    diceDOM2.src='dice-'+dice2+'.png';
+    diceDOM.src='images/dice-'+dice+'.png';
+    diceDOM2.src='images/dice-'+dice2+'.png';
 }
 
 function nextPlayer(){
